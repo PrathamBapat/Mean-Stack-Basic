@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { IssueService } from '/src/app/issue.service';
-import { Issue } from '/src/app/issue.model';
+import { IssueService } from 'src/app/issue.service';
+import { Issue } from 'src/app/issue.model';
 import { Router, ActivatedRoute } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material';
