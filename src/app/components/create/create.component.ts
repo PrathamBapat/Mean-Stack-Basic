@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IssueService } from '/src/app/issue.service';
+import { IssueService } from 'src/app/issue.service';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
